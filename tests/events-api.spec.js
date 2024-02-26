@@ -2,7 +2,7 @@
 import { test, expect } from '@playwright/test';
 
 test('event creation', async ({ request }) => {
-  const testTitle = 'Test event docker';
+  const testTitle = 'Test event docker intern';
   const response = await request.post('/', {
     data: {
       title: testTitle,
